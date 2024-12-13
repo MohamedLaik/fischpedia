@@ -1,45 +1,57 @@
 body {
-font-family: Arial, sans-serif;
+font-family: 'Verdana', sans-serif;
 margin: 0;
 padding: 0;
+background: linear-gradient(to bottom, #0440b0, #4781ed), url('https://tr.rbxcdn.com/180DAY-178fe4b0fede7a7b90656bc174ff5dcb/768/432/Image/Webp/noFilter');
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: overlay;
+color: #2F4F4F;
 }
 header {
-background-color: #f4f4f4;
-padding: 20px;
+background-color: #5F9EA0;
+padding: 30px;
 text-align: center;
-}
-header h1 {
-margin: 0;
+color: white;
+font-size: 2.5em;
+text-shadow: 2px 2px 5px #000;
 }
 section {
 margin: 20px;
 padding: 20px;
-background-color: #f9f9f9;
-border: 1px solid #ddd;
-border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.8);
+border: 2px solid #5F9EA0;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .navigation {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-gap: 10px;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+gap: 15px;
 text-align: center;
 }
 .navigation button {
-padding: 10px;
-background-color: #007BFF;
+padding: 15px;
+background-color: #008B8B;
 color: white;
+font-size: 1em;
+font-weight: bold;
 border: none;
-border-radius: 5px;
+border-radius: 10px;
 cursor: pointer;
+transition: transform 0.2s, background-color 0.3s;
 }
 .navigation button:hover {
-background-color: #0056b3;
+background-color: #20B2AA;
+transform: scale(1.1);
 }
 footer {
 text-align: center;
-padding: 10px;
-background-color: #f4f4f4;
+padding: 15px;
+background-color: #5F9EA0;
+color: white;
 position: fixed;
 bottom: 0;
 width: 100%;
+box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
 }
